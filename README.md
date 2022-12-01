@@ -13,3 +13,8 @@ JS basic assignments
 
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/pinecone/index.html
 
+4. **Pyramid хэвлэх assignment**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/hatnaa/pyramid/index.js
+
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/hatnaa/pyramid/index.html
+
