@@ -8,4 +8,8 @@ JS basic assignments
 2. **Escape sequences**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/escape/main.js
 
+3. **Тэмдэгт мөр тоонууд Simple assignment**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/pinecone/index.js
+
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/pinecone/index.html
 
