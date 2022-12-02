@@ -18,3 +18,8 @@ JS basic assignments
 
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/hatnaa/pyramid/index.html
 
+5. **+976 99884433 phone number check assignment to complete**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/khangaikhuu/validatephonenumber/index.js
+
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/khangaikhuu/validatephonenumber/index.html
+

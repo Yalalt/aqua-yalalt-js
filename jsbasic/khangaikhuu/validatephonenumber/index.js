@@ -1,22 +1,35 @@
 // Phone number enter here
-let phoneNum;
 let exitCode = true;
-while(exitCode) {
-    phoneNum = prompt("Утасны дугаар нь +97699119911 форматтай байна\nТа утасны дугаараа оруулна уу?");
-    
-    let getFixcode = phoneNum.substring(0,4);
-    let prefixIsTrue = getFixcode == "+976"?true:false;
-    let phoneIsNumber = phoneNum.charAt.apply.apply.apply.apply.app...console...
-    console.log("pre condition check: " + phoneNum);
+let phoneNum;
+let getFixcode;
+let numberN;
+let prefixIsTrue;
+let phoneIsNumber;
 
-    while(phoneNum.length !== 12 || !prefixIsTrue || ) {
-        phoneNum = prompt("Монгол улсын утасны дугаарыг буруу орууллаа\nУтасны дугаар нь +97699119911 байна\nУтасны дугаараа зөв оруулна уу?");
-        
-        getFixcode = phoneNum.substring(0,4);
-        prefixIsTrue = getFixcode == "+976"?true:false;
-        console.log("stat: " + phoneNum);
-    }
-    alert("Mонгол улсын утасны дугаарыг зөв орууллаа");
+do {
+  if (exitCode) {
+    phoneNum = prompt(
+      "Утасны дугаар нь +97699119911 форматтай байна\nТа утасны дугаараа оруулна уу?"
+    );
     exitCode = false;
-}
+  } else {
+    phoneNum = prompt(
+      "Монгол улсын утасны дугаарыг буруу орууллаа\nУтасны дугаар нь +97699119911 байна\nУтасны дугаараа зөв оруулна уу?"
+    );
+  }
+  try {
+    getFixcode = phoneNum.substring(0, 4);
+    numberN = phoneNum.substring(4, phoneNum.length);
+  } catch (err) {
+    console.error("Утга олгоогүй алдаа гарлаа.. " + err.message);
+  }
+
+  prefixIsTrue = getFixcode == "+976" ? true : false;
+  phoneIsNumber = Number.isInteger(Number(numberN)) ? true : false;
+
+} while (phoneNum.length !== 12 || !prefixIsTrue || !phoneIsNumber);
+
+alert("Mонгол улсын утасны дугаарыг зөв орууллаа");
+
 console.log("phone number: " + phoneNum);
+console.log("Mонгол улсын утасны дугаарыг зөв орууллаа");
