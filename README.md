@@ -24,7 +24,7 @@ JS basic assignments
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/khangaikhuu/validatephonenumber/index.html
 
 6. **Ugtakhbayar Surakhbayar багшийн While Loop ашигласан 13 тооны даалгавар**
-- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/ugtakhbayar/index.js
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/ugtakhbayar/main.js
 
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/ugtakhbayar/index.html
 
