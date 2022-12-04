@@ -34,7 +34,7 @@ console.log("100 хүртэлх натурал тооны нийлбэр: " + ni
 
 console.log("\n5. Даалгавар N number and Sum");
 // let n = 101;
-let n = Number(prompt("5.Даалгавар\nN toog oruulna uu"));
+let n = Number(prompt("5.Даалгавар\nN натурал тоог хэвлэх, тооны нийлбэр олох\nN toog oruulna uu"));
 let naturalToo = 1;
 let sanahToo = 0;
 let hewleh = "";
@@ -47,7 +47,7 @@ console.log(hewleh);
 
 console.log("\n6. Даалгавар Анхны тоо шалгах");
 // let anhToo = 97;
-let anhToo = Number(prompt("6. Даалгавар\nN toog oruulna uu"));
+let anhToo = Number(prompt("6. Даалгавар\nАнхны тоог шалгах\nN toog oruulna uu"));
 let natToo = 2;
 let isPrime = 0;
 while (natToo <= anhToo / 2) {
@@ -90,7 +90,7 @@ while (primeSt <= primenD) {
 }
 
 console.log("\n8. N Тооны факториал олох");
-let factNumber = Number(prompt("8.Даалгавар\nN тоо оруулна уу"));
+let factNumber = Number(prompt("8.Даалгавар\nФакториал олох\nN тоо оруулна уу"));
 // let factNumber = 7;
 
 let mfactor, ffact = 1;
