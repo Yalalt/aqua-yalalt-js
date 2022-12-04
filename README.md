@@ -28,3 +28,8 @@ JS basic assignments
 
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/ugtakhbayar/index.html
 
+7. **Temuulen Narmandakh багшийн Square үүсгэх, үүсгэхдээ тоо ашигласан, тоог буурах дарааллаар хийж даалгаврыг бага зэрэг хүндрүүлэв**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/square/main.js
+
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/square/index.html
+
