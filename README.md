@@ -39,3 +39,9 @@ JS basic assignments
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/reversenumber/index.html
 
 
+9. **Orgil багшийн өгөгдсөн тооны массив дахь тэгш сондгой тоог тоолох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/countevod/main.js
+
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/countevod/index.html
+
+
