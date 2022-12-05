@@ -57,6 +57,9 @@ JS basic assignments
 13. **Temuulen багшийн Тоон доторх цифр давтамж тоолох даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/ccount/count.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/ccount/index.html
+14. **Bilguun багшийн Simple Array - 2 даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/simpleArray/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/simpleArray/index.html
 
 
 
