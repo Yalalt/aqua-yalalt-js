@@ -51,6 +51,10 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/arraynumbers/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/arraynumbers/index.html
 
+12. **Temuulen багшийн Паскалын гурвалжин байгуулах даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/pascal/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/pascal/index.html
+
 
 
 
