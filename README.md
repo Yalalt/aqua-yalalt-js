@@ -33,3 +33,9 @@ JS basic assignments
 
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/square/index.html
 
+8. **Temuulen Narmandakh багшийн өгөгдсөн тооны урвууг үүсгэх даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/reversenumber/main.js
+
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/reversenumber/index.html
+
+
