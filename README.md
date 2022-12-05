@@ -54,6 +54,9 @@ JS basic assignments
 12. **Temuulen багшийн Паскалын гурвалжин байгуулах даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/pascal/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/pascal/index.html
+13. **Temuulen багшийн Тоон доторх цифр давтамж тоолох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/ccount/count.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/ccount/index.html
 
 
 
