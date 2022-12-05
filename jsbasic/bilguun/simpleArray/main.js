@@ -17,7 +17,7 @@ console.log(itCompanies);
 console.log("Эхний 3 компани: " + cutedBegin3);
 
 let suul3company = [3];
-debugger;
+
 for (let icom = 1; icom < 4; icom++) {
   suul3company[icom - 1] = itCompanies[itCompanies.length - icom];
 }
