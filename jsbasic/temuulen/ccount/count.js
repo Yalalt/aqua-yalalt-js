@@ -1,5 +1,5 @@
-let natToo = 987463251453553;
-// let natToo = Number(prompt("N тоог оруулна уу"));
+// let natToo = 987463251453553;
+let natToo = Number(prompt("N шалгах тоог оруулна уу"));
 
 let strNatToo = natToo.toString();
 let countToo = [];
