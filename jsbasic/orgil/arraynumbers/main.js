@@ -1,4 +1,4 @@
-console.log("1. Array numbers deerh uildeluud");
+console.log("1. Array тоон дээрх үйлдлүүд");
 
 let arrayOfNumbers = [43,56,23,89,88,90,99,652,15,290,11];
 let arraysSum = 0;
@@ -21,6 +21,12 @@ for(let sm = 1; sm < arrayOfNumbers.length; sm++){
     }
 }
 
-console.log(arraysSum);
-console.log(maxVal);
-console.log(minVal);
+console.log(arrayOfNumbers);
+console.log("Нийлбэр: " + arraysSum);
+console.log("Хамгийн их утга: " + maxVal);
+console.log("Хамгийн бага утга: " + minVal);
+
+arrayOfNumbers.unshift(58);
+console.log("Array эхэнд утга нэмсний дараа: " + arrayOfNumbers);
+arrayOfNumbers.push(59);
+console.log("Array төгсгөлд утга нэмсний дараа: " + arrayOfNumbers);

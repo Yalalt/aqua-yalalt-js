@@ -45,8 +45,13 @@ JS basic assignments
 
 10. **Orgil багшийн өгөгдсөн массив дахь Гончигсумлайгийн нэг өдрийн ажлын цагыг хуваарь гаргах даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/routine/main.js
-
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/routine/index.html
+
+11. **Orgil багшийн өгөгдсөн массив дахь тооны нийлбэр, их, бага утга олох, эхэнд, төгсгөлд дурын утга нэмэх даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/arraynumbers/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/arraynumbers/index.html
+
+
 
 
 
