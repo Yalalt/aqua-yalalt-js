@@ -3,8 +3,6 @@ let starN = 1;
 let triangSz = 8;
 
 for (let i = 1; i <= triangSz; i++) {
-  let j = i;
-  let k = 1;
 
   for (let dash = triangSz - i; dash > 0; dash--) {
         strZai = strZai + " ";
