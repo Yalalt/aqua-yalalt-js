@@ -2,7 +2,7 @@ let pNum = 1;
 let rowNum = 6;
 let pascalNumbers = "";
 
-debugger;
+
 for (var i = 0; i < rowNum; i++) {
   for (var j = rowNum - i; j > 0; j--) {
     pascalNumbers += " ";
