@@ -70,8 +70,9 @@ JS basic assignments
 17. **Orgil багшийн Convert String даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/charConvert/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/charConvert/index.html
-
-
+18. **Hatnaa багшийн N тооны Factorial олох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/hatnaa/factorial/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/hatnaa/factorial/index.html
 
 
 
