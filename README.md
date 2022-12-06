@@ -64,6 +64,9 @@ JS basic assignments
 15. **Mungunshagai багшийн Count Word даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/mungunshagai/countword/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/mungunshagai/countword/index.html
+16. **Gereltuya багшийн 2 массивыг үржүүлэх даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/twoarray/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/twoarray/index.html
 
 
 
