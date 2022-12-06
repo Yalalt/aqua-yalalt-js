@@ -67,6 +67,9 @@ JS basic assignments
 16. **Gereltuya багшийн 2 массивыг үржүүлэх даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/twoarray/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/twoarray/index.html
+17. **Orgil багшийн Convert String даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/charConvert/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/charConvert/index.html
 
 
 
