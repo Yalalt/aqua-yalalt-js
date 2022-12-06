@@ -4,19 +4,21 @@ let pay3 = 100000;
 
 debugger;
 const getTip = function(taxVal) {
+    let result;
     if(taxVal >= 5000 && taxVal <= 30000) {
-        taxVal = taxVal * 0.15;
+        result = taxVal * 0.15;
     } else if(taxVal > 30000) {
-        taxVal = taxVal * 0.20;
+        result = taxVal * 0.20;
     } else {
-        taxVal = 0;
+        result = 0;
     }
-    return taxVal;
+    return result;
 }
 
 const getTotalTax = function(payTax) {
-    payTax = getTip(payTax) + payTax;
-    return payTax;
+    let res;
+    res = getTip(payTax) + payTax;
+    return res;
 }
 
 const getAverageTax = function(tax1, tax2, tax3) {
@@ -45,4 +47,4 @@ let resultAve = getAverageTax(pay1, pay2, pay3);
 console.log(`Хэрэглэгч ${pay1} төлсөн бол Tip нь ${result1Tip}, нийт төлбөр нь ${result1Tax}`);
 console.log(`Хэрэглэгч ${pay2} төлсөн бол Tip нь ${result2Tip}, нийт төлбөр нь ${result2Tax}`);
 console.log(`Хэрэглэгч ${pay3} төлсөн бол Tip нь ${result3Tip}, нийт төлбөр нь ${result3Tax}`);
-console.log(`3 хэрэглэгчийн нийт төлбөрийн дундаж нь ${resultAve}`);
+console.log(`Хэрэглэгчдийн нийт төлбөрийн дундаж нь ${resultAve.toFixed(2)}`);

@@ -78,4 +78,6 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/doublevalue/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/doublevalue/index.html
 
-
+20. **Orgil багшийн Tips 2 даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/tips/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/tips/index.html
