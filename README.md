@@ -74,5 +74,8 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/hatnaa/factorial/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/hatnaa/factorial/index.html
 
+19. **Gereltuya багшийн массиваас давтагдсан элементүүдийг массив болгох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/doublevalue/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/doublevalue/index.html
 
 
