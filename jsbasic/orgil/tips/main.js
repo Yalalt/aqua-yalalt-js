@@ -2,7 +2,7 @@ let pay1 = 3000;
 let pay2 = 27500;
 let pay3 = 100000;
 
-debugger;
+
 const getTip = function(taxVal) {
     let result;
     if(taxVal >= 5000 && taxVal <= 30000) {

@@ -81,3 +81,7 @@ JS basic assignments
 20. **Orgil багшийн Tips 2 даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/tips/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/tips/index.html
+21. **Orgil багшийн Массив эрэмблэх даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/tips/sortArray.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/tips/index.html
+
