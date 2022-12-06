@@ -61,6 +61,10 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/simpleArray/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/simpleArray/index.html
 
+15. **Mungunshagai багшийн Count Word даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/mungunshagai/countword/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/mungunshagai/countword/index.html
+
 
 
 
