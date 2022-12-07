@@ -109,4 +109,7 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/elementdelete/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/elementdelete/index.html
 
+27. **Orgil багш: palindromic checker функ зохиох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/palindrom/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/palindrom/index.html
 
