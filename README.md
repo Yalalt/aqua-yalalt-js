@@ -101,7 +101,7 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/reverse/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/reverse/index.html
 
-25. **Gereltuya багш: Reverse number - Гараас өгсөн тоо текстийг урвуугаар нь болгох даалгавар**
+25. **Gereltuya багш: parameterize a string - үгнүүдийн дундуур зураас оруулаx функц бичих даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/parameterized/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/parameterized/index.html
 
