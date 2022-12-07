@@ -97,3 +97,6 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/register/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/register/index.html
 
+24. **Gereltuya багш: Reverse number - Гараас өгсөн тоо текстийг урвуугаар нь болгох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/reverse/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/reverse/index.html

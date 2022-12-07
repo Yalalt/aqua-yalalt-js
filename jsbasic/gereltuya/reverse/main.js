@@ -10,7 +10,7 @@ function begin() {
 //   let inputValue = "1357986420";
 
   let numberB = getReversedValue(inputValue);
-  alert("Number is: " + numberB);
+  alert("Reversed Number or Text is: " + numberB);
 }
 
 begin();
