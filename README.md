@@ -89,3 +89,7 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/evenodd/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/evenodd/index.html
 
+23. **Temuulen багшийн Регистрийн дугаар шалгах, мэдээлэл харуулах функ зохиох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/register/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/register/index.html
+

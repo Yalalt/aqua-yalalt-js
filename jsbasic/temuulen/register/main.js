@@ -112,7 +112,7 @@ function getBirthRegion(registerNo) {
   return location;
 }
 
-function getregisterInfo(){
+function getRegisterInfo(){
     let testRegisterTrue = isCorrectReg(registerID);
     let testGender = getGender(registerID);
     let testDay = getBirthDay(registerID);
@@ -130,4 +130,4 @@ function getregisterInfo(){
 
 }
 
-getregisterInfo();
+getRegisterInfo();
