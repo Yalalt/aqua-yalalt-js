@@ -1,4 +1,4 @@
-let alphabetics = "ФЦУЖЭНГШҮЗКЪЕЙЫБӨАХРОЛДПЯЧЁСМИТЬВЮ";
+const alphabetics = "ФЦУЖЭНГШҮЗКЪЕЙЫБӨАХРОЛДПЯЧЁСМИТЬВЮ";
 let registerID = "ЕЮ91082135";
 const locAddressKey = [
   "А",
