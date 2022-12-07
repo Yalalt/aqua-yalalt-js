@@ -40,10 +40,18 @@ let inputUtga = prompt(
   `Тест хийх текстийн дугаарыг оруулна уу\n1. ${test1}\n2. ${test2}\n3. ${test3}\n4. ${defaultTest}`
 );
 
-getCheckTest(inputUtga);
 
-if (testCall) {
-  alert("Palindrome мөн байна");
-} else {
-  alert("Palindrome биш байна");
+
+
+try {
+  getCheckTest(inputUtga);
+
+  if (testCall) {
+    alert("Palindrome мөн байна");
+  } else {
+    alert("Palindrome биш байна");
+  }
+}
+catch(err) {
+  console.warn(err + " Only run on browsers that support");
 }
