@@ -85,3 +85,7 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/tips/sortArray.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/tips/index.html
 
+22. **Orgil багшийн Массив дахь тэгш сондгой тоог олох функ зохиох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/evenodd/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/evenodd/index.html
+
