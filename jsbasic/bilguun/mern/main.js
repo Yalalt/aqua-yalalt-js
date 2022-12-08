@@ -1,6 +1,6 @@
 const users = [
   {
-    name: Alex,
+    name: "Alex",
     email: "alex@alex.com",
     skills: ["HTML", "CSS", "JavaScript"],
     age: 45,
@@ -8,7 +8,7 @@ const users = [
     points: 30,
   },
   {
-    name: Job,
+    name: "Job",
     email: "job@job.com",
     skills: [
       "HTML",
@@ -25,7 +25,7 @@ const users = [
     points: 50,
   },
   {
-    name: Brook,
+    name: "Brook",
     email: "daniel@daniel.com",
     skills: ["HTML", "CSS", "JavaScript", "React", "Redux"],
     age: 39,
@@ -33,7 +33,7 @@ const users = [
     points: 50,
   },
   {
-    name: Daniel,
+    name: "Daniel",
     email: "daniel@alex.com",
     skills: ["HTML", "CSS", "JavaScript", "Python"],
     age: 25,
@@ -41,7 +41,7 @@ const users = [
     points: 40,
   },
   {
-    name: John,
+    name: "John",
     email: "john@john.com",
     skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js"],
     age: 20,
@@ -49,7 +49,7 @@ const users = [
     points: 50,
   },
   {
-    name: Thomas,
+    name: "Thomas",
     email: "thomas@thomas.com",
     skills: ["HTML", "CSS", "JavaScript", "React"],
     age: 18,
@@ -57,7 +57,7 @@ const users = [
     points: 40,
   },
   {
-    name: Paul,
+    name: "Paul",
     email: "paul@paul.com",
     skills: [
       "HTML",
@@ -74,9 +74,55 @@ const users = [
   },
 ];
 
-function getInfoByName(name, list){
-    let objUser = [];
+// Test heseg
+console.group("Нэг хэрэглэгчийн мэдээлэл авсан нь:");
+console.log(getUserInfoByName("Paul", users));
+console.groupEnd();
+console.log(getManySkilledPerson(users));
+console.log("\nНэвтэрсэн хэрэглэгчид: " + checkLogin(users));
 
 
-    return objUser;
+
+
+
+
+// return String, get 2 parameter name and array
+function getUserInfoByName(name, list) {
+  let user = "";
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].name === name) {
+      user += `Нэр: \t"${list[i].name}"\nEmail: \t"${list[i].email}"\nУр чадвар: "${list[i].skills}"\nНас: \t"${list[i].age}"\nОноо: \t"${list[i].points}"\n\n`;
+    }
+  }
+  return user;
 }
+
+function getManySkilledPerson(list) {
+  let skillUser = list[0].skills.length;
+  let userIndex = 0;
+  let userInfo = "";
+
+  for (var i = 1; i < list.length; i++) {
+    if (list[i].skills.length > skillUser) {
+      skillUser = list[i].skills.length;
+      userIndex = i;
+    }
+  }
+
+  userInfo = `Хамгийн олон ур чадвартай хөгжүүлэгчийн мэдээлэл:\nНэр: \t${list[userIndex].name}\nEmail: \t${list[userIndex].email}\nНас: \t${list[userIndex].age}\nЭзэмшсэн Ур чадвар: ${list[userIndex].skills}`;
+  
+  return userInfo;
+}
+
+function checkLogin(users) {
+  let loginUsers = [];
+
+  for (let i = 0; i < users.length; i++) {
+    if (users[i].isLoggedIn === true) {
+      loginUsers.push(users[i].name);
+    }
+
+  }
+  return loginUsers;
+}
+
