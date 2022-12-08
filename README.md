@@ -61,6 +61,7 @@ JS basic assignments
 13. **Temuulen багшийн Тоон доторх цифр давтамж тоолох даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/temuulen/ccount/count.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/temuulen/ccount/index.html
+
 14. **Bilguun багшийн Simple Array - 2 даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/simpleArray/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/simpleArray/index.html
@@ -112,4 +113,13 @@ JS basic assignments
 27. **Orgil багш: palindromic checker функ зохиох даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/palindrom/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/palindrom/index.html
+
+28. **Bilguun багш: MERN Object даалгавар**
+- Нэг хэрэглэгчийн объектын бүх утгыг авч хэвлэх.
+- Хэрэглэгчийн объектод олон ур чадвар эзэмшсэн хүнийг олоорой.
+- Нэвтэрсэн хэрэглэгчдийг тоолж, дараах объектоос 50-аас дээш оноо авсан хэрэглэгчдийг тоол.
+- Хэрэглэгчийн объектоос MERN ( MongoDB, Express, React, Node ) стек хөгжүүлэгч хүмүүсийг олоорой.
+- Хамгийн их настай 3 хүмүүсийн мэдээллийг хэвлэх
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/mern/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/mern/index.html
 
