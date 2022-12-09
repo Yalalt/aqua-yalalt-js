@@ -74,11 +74,19 @@ function getLastName() {
 
 function getSameAge(student) {
   let listAges = [];
-//   fgjhfl;dgkdfg
+  //   Nasiig ni tentsuulj new array vvsgej hadgalna
+  for (let i = 0; i < student.length; i++) {
+    for(let j = 0; j < student[j].length; j++) {
+        if (student[i].age === student[j+1].age) {
+          listAges.push(student[i]);
+        }
+
+    }
+  }
+  return listAges;
+
   let count = 0;
   console.log(listAges);
-
-
 }
 
 // Test get genders count
