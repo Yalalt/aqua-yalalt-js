@@ -122,8 +122,5 @@ console.log("\nСурагчдын овог нэмсэн:");
 let testNewStudents = addLastname(students);
 console.log(testNewStudents);
 
-let testtt = getSameAge(students, 19);
-console.log(testtt);
-
 console.log("Ижил настай сурагч: ");
 getSameAgeStudents(students);
