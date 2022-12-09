@@ -1,6 +1,6 @@
 let students = [
   {
-    name: "Сэд-Эрдэнэ",
+    name: "Сод-Эрдэнэ",
     age: 19,
     gender: "male",
   },
@@ -25,11 +25,22 @@ let students = [
     gender: "female",
   },
 ];
-let countMale = 0;
-let countFemale = 0;
+let lastnames = [
+  { lastname: "Bold" },
+  { lastname: "Tulga" },
+  { lastname: "Orgil" },
+  { lastname: "Bat" },
+  { lastname: "Amar" },
+];
+
+let users = {};
+let studentsSameAge = [];
+let listKeys = [];
+let listAges = [];
 
 function getHowMany(student) {
-  let users = [];
+  let countFemale = 0;
+  let countMale = 0;
 
   for (let i = 0; i < student.length; i++) {
     if (student[i].gender === "male") {
@@ -38,14 +49,13 @@ function getHowMany(student) {
       countFemale++;
     }
   }
-  users.push({ male: countMale, female: countFemale });
-
-  return users;
+  users = { male: countMale, female: countFemale };
+  return;
 }
 
-function getInfo(arr) {
+function getInfo(objStudent) {
   let res;
-  res = `Ангид ${arr.male} эрэгтэй сурагч, ${arr.female} эмэгтэй сурагч байна`;
+  res = `Ангид ${objStudent.male} эрэгтэй сурагч, ${objStudent.female} эмэгтэй сурагч байна`;
   return res;
 }
 
@@ -60,42 +70,57 @@ function getAverageAge(student) {
 
 // Add lastname add students
 function addLastname(students) {
-  let newStudents = students.map(function (student) {
-    return { ...student, lastname: getLastName() };
+  let newStudents = students.map(function (student, index) {
+    return { ...student, lastname: getLastName(index) };
   });
 
   return newStudents;
 }
 
-function getLastName() {
-  let lastname = "Bold";
+// Овог нэрсийг өөрчилхөд энд засна
+function getLastName(item) {
+  let lastname = lastnames[item].lastname;
   return lastname;
 }
 
-function getSameAge(student) {
-  let listAges = [];
-  //   Nasiig ni tentsuulj new array vvsgej hadgalna
-  for (let i = 0; i < student.length; i++) {
-    for(let j = 0; j < student[j].length; j++) {
-        if (student[i].age === student[j+1].age) {
-          listAges.push(student[i]);
-        }
+function getSameAge(aged) {
 
+  for (let i = 0; i < students.length; i++) {
+    if (students[i].age === aged) {
+      listAges.push(students[i]);
     }
   }
   return listAges;
+}
 
-  let count = 0;
-  console.log(listAges);
+function getSameAgeStudents(students) {
+  let listStudents = {};
+
+  listStudents = students.reduce(function (student, item) {
+    student[item.age] = (student[item.age] || 0) + 1;
+    return student;
+  }, {});
+
+  listKeys = Object.keys(listStudents);
+  let indexkey = Number(listKeys[0]);
+  
+  console.log(getSameAge(indexkey));
 }
 
 // Test get genders count
-console.log("Эрэгтэй сурагч, Эмэгтэй сурагч:");
-console.log(getHowMany(students));
+console.log("Эрэгтэй сурагч, Эмэгтэй сурагчын тоо:");
+getHowMany(students);
+console.log(getInfo(users));
+
 console.log("\nСурагчдын насны дундаж:");
 console.log(getAverageAge(students));
+
 console.log("\nСурагчдын овог нэмсэн:");
 let testNewStudents = addLastname(students);
 console.log(testNewStudents);
 
-console.log(getSameAge(students));
+let testtt = getSameAge(students, 19);
+console.log(testtt);
+
+console.log("Ижил настай сурагч: ");
+getSameAgeStudents(students);
