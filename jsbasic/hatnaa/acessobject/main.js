@@ -83,6 +83,7 @@ function getLastName(item) {
   return lastname;
 }
 
+// Нэр авах хэсэг, өгсөн насаар л авна
 function getSameAge(aged) {
 
   for (let i = 0; i < students.length; i++) {
@@ -93,6 +94,8 @@ function getSameAge(aged) {
   return listAges;
 }
 
+// Ижил наснуудыг нэгтгэж нэг массив болгож
+// насаар нь мэдээлэл буцаах функц дуудав
 function getSameAgeStudents(students) {
   let listStudents = {};
 
