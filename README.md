@@ -123,7 +123,7 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/mern/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/mern/index.html
 
-18. **Hatnaa багш: Accessing objects Сурагчдын обьект дээр мэдээллүүдийг харуулах даалгавар**
+29. **Hatnaa багш: Accessing objects Сурагчдын обьект дээр мэдээллүүдийг харуулах даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/hatnaa/acessobject/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/hatnaa/acessobject/index.html
 
