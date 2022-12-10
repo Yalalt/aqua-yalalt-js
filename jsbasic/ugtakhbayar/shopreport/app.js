@@ -60,12 +60,10 @@ function getTotalNumberOfIncomes(){
 }
 // Max 5 product Price
 function getMaxIncomeNumFiveProdutions(){
-    
     let maxIncomeFiveProduct = [...reportData];
     let top5price = maxIncomeFiveProduct.sort(function(a, b){
         return b.totalPrice - a.totalPrice;
     }).slice(0, 5);
-    
     return top5price;
 }
 
@@ -75,7 +73,6 @@ function getMaxIncomeFiveProd(){
     let top5Amount = maxIncomeFiveProduct.sort(function(a, b){
         return b.amount - a.amount;
     }).slice(0, 5);
-
     return top5Amount;
 }
 
@@ -106,7 +103,6 @@ function displayConsolePrice(list){
         niitBorluulalt += element.totalPrice;
     }
     console.log("Нийт борлуулалт: " + niitBorluulalt.toLocaleString());
-
     let percPerProduct = getPercentByPrice(niitBorluulalt);
     console.log(`Нийт борлуулалтын орлогын ${percPerProduct}% хувь эзэлж байна`);
 }
@@ -118,7 +114,6 @@ function displayConsoleTenPrice(list){
         niitBorluulalt += element.totalPrice;
     }
     console.log("Нийт борлуулалт: " + niitBorluulalt.toLocaleString());
-
     let percPerProduct = getPercentByPrice(niitBorluulalt);
     console.log(`Нийт борлуулалтын орлогын ${percPerProduct}% хувь эзэлж байна`);
 }
@@ -131,7 +126,6 @@ function displayConsoleAmount(list){
         niitIncomeAmo += element.amount;
     }
     console.log("Нийт борлуулалтын тоо: " + niitIncomeAmo.toLocaleString());
-
     let percPerProductAmount = getPercentByAmount(niitIncomeAmo);
     console.log(`Нийт борлуулалтын ${percPerProductAmount}% хувь эзэлж байна`);
 }
@@ -141,7 +135,6 @@ function minFiveProductPrice(){
     let minFivePod = minFiveProducts.sort(function(a, b){
         return a.totalPrice - b.totalPrice;
     }).slice(0, 5);
-
     return minFivePod;
 }
 
@@ -150,7 +143,6 @@ function minFiveProductAmount(){
     let minFivProdAm = minFiveProdAmout.sort(function(a, b){
         return a.amount - b.amount;
     }).slice(0, 5);
-
     return minFivProdAm;
 }
 
