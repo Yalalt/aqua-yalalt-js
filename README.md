@@ -127,4 +127,13 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/hatnaa/acessobject/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/hatnaa/acessobject/index.html
 
+30. **Ugtakhbayar Surakhbayar багш: Shop Report - Дэлгүүрийн орлогын тайлан даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/ugtakhbayar/shopreport/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/ugtakhbayar/shopreport/index.html
+
+
+
+
+
+
 
