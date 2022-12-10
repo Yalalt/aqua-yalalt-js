@@ -131,7 +131,9 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/ugtakhbayar/shopreport/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/ugtakhbayar/shopreport/index.html
 
-
+31. **Orgil багш: Сурагчид мэдээлэл харуулах функ зохиох даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/students/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/students/index.html
 
 
 
