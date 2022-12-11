@@ -134,6 +134,9 @@ JS basic assignments
 31. **Orgil багш: Сурагчид мэдээлэл харуулах функ зохиох даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/students/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/students/index.html
+32. **Orgil bagsh: Animals sounds**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/animals/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/animals/index.html
 
 
 
