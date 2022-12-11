@@ -138,7 +138,9 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/animals/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/animals/index.html
 
-
+33. **Bilguun багш: Нохойн Object даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/object/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/object/index.html
 
 
 
