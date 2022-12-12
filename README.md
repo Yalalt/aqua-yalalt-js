@@ -158,3 +158,6 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/changebg/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/changebg/index.html
 
+38. **Orgil bagsh: ЦАГ 1:11:58:99 хийв**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/time/clock.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/time/index.html
