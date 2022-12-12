@@ -154,3 +154,7 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/mungunshagai/carbrand/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/mungunshagai/carbrand/index.html
 
+37. **Gereltuya багш: DOM ашиглан Background Color Width Size change - товч дээр дархад өргөн өнгө хоёр өөрчлөгддөг даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/changebg/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/changebg/index.html
+
