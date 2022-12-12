@@ -163,7 +163,7 @@ JS basic assignments
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/time/index.html
 
 39. **Oyunjargal bagsh: Өгөгдсөн аймгийн жагсаалтыг ашиглан дараах даалгаврыг хийв**
-- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/oyunjargal/dom/time/app.js
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/oyunjargal/dom/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/oyunjargal/dom/index.html
 
 
