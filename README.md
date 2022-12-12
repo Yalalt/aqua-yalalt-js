@@ -146,7 +146,11 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/shoppingcart/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/shoppingcart/index.html
 
-35. **Mungunshagai багш: Car Brand - Машин брэндийн мэдээлэл харуулах даалгавар**
+35. **Bilguun багш: IT Company Method usage даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/itcomp/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/itcomp/index.html
+
+36. **Mungunshagai багш: Car Brand - Машин брэндийн мэдээлэл харуулах даалгавар**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/mungunshagai/carbrand/main.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/mungunshagai/carbrand/index.html
 
