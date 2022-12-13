@@ -1,26 +1,21 @@
-let domList = document.getElementsByTagName("option");
-let delBtn = document.getElementById("btn");
+let delBtn = document.getElementById("btnDel");
+let colorsItem = document.getElementById("selectItem");
+let displaySee = document.getElementById("listItem");
 
 function getDomList() {
-  console.log(domList.length);
-  for (const element of domList) {
+  console.log(colorsItem.length);
+  for (const element of colorsItem) {
     console.log(element.innerText);
   }
 }
 
-function selectedItemDelete(){
-    const localDomList = document.getElementsByTagName("option");
-    const index = localDomList.selectedIndex;
-    console.log(index);
-    
+function deleteColor() {
+  let selectIndex = colorsItem.selectedIndex;
+  colorsItem.remove(selectIndex);
 }
 
-function selectItemOption(){
-    let test = domList.selected;
-    console.log(test);
+function getSelectValue() {
+  let selectedValue = colorsItem.value;
+  console.log("Selected: " + selectedValue);
 }
-
-domList.addEventListener("select", selectItemOption, false);
-delBtn.addEventListener("click", selectedItemDelete, false);
-
-// getDomList();
+getDomList();

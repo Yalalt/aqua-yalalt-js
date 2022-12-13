@@ -166,4 +166,9 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/oyunjargal/dom/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/oyunjargal/dom/index.html
 
+40. **Gereltuya багш: DOM ашиглан Color Dropdown list үүсгэх - товч дээр дархад жагсаалтаас хасагдах даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/dropdown/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/dropdown/index.html
+
+
 
