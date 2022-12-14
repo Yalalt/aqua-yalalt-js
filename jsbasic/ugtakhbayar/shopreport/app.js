@@ -70,9 +70,11 @@ function getMaxIncomeNumFiveProdutions(){
 // Max 5 product amount
 function getMaxIncomeFiveProd(){
     let maxIncomeFiveProduct = [...reportData];
+
     let top5Amount = maxIncomeFiveProduct.sort(function(a, b){
         return b.amount - a.amount;
     }).slice(0, 5);
+    
     return top5Amount;
 }
 
