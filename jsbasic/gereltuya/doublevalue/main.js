@@ -3,9 +3,9 @@ let arrayOut = [];
 let index = 0;
 let c = arrayOfNumbers.length;
 let count;
-let maxItems = arrayOfNumbers.sort(function (a, b) { return b - a; }).slice(0, 1);
+let maxItems = arrayOfNumbers.sort((a, b) => b - a).slice(0, 1);
 
-
+// Select sort arga ashiglaw
 for (var i = 0; i <= maxItems; i++) {
   occure = false;
   count = 1;
