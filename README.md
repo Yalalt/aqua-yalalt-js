@@ -173,5 +173,8 @@ JS basic assignments
 41. **Orgil bagsh: ЦАГ 1:11:58:99 хийв**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/colorBackground/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/colorBackground/index.html
-
+-------------------Color Box Game------------------------ 
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/colorQuiz/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/colorQuiz/index.html
+-------------------------------------------
 
