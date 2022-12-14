@@ -170,5 +170,8 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/gereltuya/dropdown/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/gereltuya/dropdown/index.html
 
+41. **Orgil bagsh: ЦАГ 1:11:58:99 хийв**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/colorBackground/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/colorBackground/index.html
 
 
