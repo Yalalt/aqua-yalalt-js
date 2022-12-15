@@ -178,3 +178,9 @@ JS basic assignments
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/colorQuiz/index.html
 -------------------------------------------
 
+42. **Orgil bagsh: Random Number - Тоо таах тоглоом хийв**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/RandomNumber/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/RandomNumber/index.html
+
+
+
