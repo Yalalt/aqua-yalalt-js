@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(29, 41, 83);
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.wrapper {
+    max-width: 400px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+#new-task-input {
+    /* line-height: 3; */
+    width: 100%;
+    background-color: rgb(251, 244, 244);
+    border: none;
+    border-bottom: 2px solid rgb(227, 149, 74);
+    margin: 0;
+    padding: 5px 10px;
+    overflow-x: hidden;
+    color: rgb(29, 41, 83);
+}
+#new-task-submit {
+    background-color: rgb(227, 149, 74);
+    border: none;
+    height: 43px;
+    color: #fff;
+    padding: 6px;
+}
+#new-task-form {
+    display: flex;
+    width: 100%;
+}
+#tasks { 
+    border-top: 2px solid rgb(29, 41, 83);
+}

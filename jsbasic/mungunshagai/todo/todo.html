@@ -9,38 +9,48 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <h1>Todo List App 2022</h1>
-      <form id="new-task-form">
-        <input
-          type="text"
-          name="new-task-input"
-          id="new-task-input"
-          placeholder="Таскын текстээ оруулна уу"
-        />
-        <input type="submit" id="new-task-submit" value="Add task" />
-      </form>
-    </header>
-    <main>
-      <section class="task-list">
-        <h2>Жагсаалт</h2>
-        <div id="tasks">
+    <div class="container">
+      <div class="wrapper">
+        <header>
+          <h1>Todo List App 2022</h1>
+          <div id="DateNow">Он сар өдөр: 2022-12-19</div>
+          <form id="new-task-form">
+            <input
+              type="text"
+              name="new-task-input"
+              id="new-task-input"
+              placeholder="Таскын текстээ оруулна уу"
+            />
+            <input type="submit" id="new-task-submit" value="+нэмэх" />
+          </form>
+        </header>
+        <main>
+          <section class="task-list">
+            <h2>Жагсаалт</h2>
+            <div id="tasks">
 
-          
-            <div class="task">
+
+              <div class="task">
                 <div class="content">
-                    <input type="text" class="text" value="Шинэ таскын текст" readonly />
+                  <input
+                    type="text"
+                    class="text"
+                    value="Шинэ таскын текст"
+                    readonly
+                  />
                 </div>
                 <div class="actions">
-                    <button class="edit">Edit</button>
-                    <button class="delete">Delete</button>
+                  <button class="edit">Edit</button>
+                  <button class="delete">Delete</button>
                 </div>
+              </div>
+
+
             </div>
-
-
-        </div>
-      </section>
-    </main>
+          </section>
+        </main>
+      </div>
+    </div>
 
     <script src="./main.js"></script>
   </body>
