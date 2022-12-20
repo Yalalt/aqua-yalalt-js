@@ -112,6 +112,12 @@ input, button {
 .task .actions {
     display: flex;
     margin: 0;
+    background: transparent;
+}
+.task .actions .edit,
+.task .actions .check,
+.task .actions .delete {
+    background: transparent;
 }
 
 .task .actions button {
