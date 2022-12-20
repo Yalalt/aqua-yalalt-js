@@ -1,11 +1,12 @@
 let imgDisp = document.querySelector("#result");
 let urlImg = "https://images.unsplash.com/photo-1671418193953-9402c71d612d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80";
 
-const newPromise = new Promise((myResolve, reject) => {
+const newPromise = new Promise((resolve, reject) => {
     
     setTimeout(() => {
+        
         if (urlImg !== null) {
-          myResolve();
+          resolve();
         } else {
           reject();
         }
