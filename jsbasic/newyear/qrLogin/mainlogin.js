@@ -3,7 +3,8 @@ let usrpwd = document.getElementById('userpassword');
 let submitButton = document.getElementById('submitBtn');
 let boxLogind = document.getElementById('boxLogin');
 let rightSides = document.getElementById('rightSide');
-let msg = document.getElementById('messageUser');
+let msg = document.getElementById('messageTitle');
+let msgDesc = document.getElementById('msgDescription');
 let hint = document.getElementById('hints');
 
 submitButton.addEventListener('click', function(e) {
@@ -16,8 +17,13 @@ function checkPassword(pwd){
         boxLogind.classList.add('hide');
         rightSides.classList.remove('col-lg-6');
         rightSides.classList.add('col-lg-12');
-        msg.textContent = "ТА АМЖИЛТТАЙ НЭВТЭРЛЭЭ";
+        msg.textContent = "ТА АМЖИЛТТАЙ НЭВТЭРЛЭЭ. БАЯР ХҮРГЭЕ!";
         hint.classList.add('hide');
+        msgDesc.classList.add('hide');
+
+        setTimeout(()=>{
+            window.location.replace("https://w3schools.com");
+        }, 5000);
     } else {
         boxLogind.classList.add('leftSide');
         msg.textContent = "ТА НЭВТЭРЧ ЧАДСАНГҮЙ....";
