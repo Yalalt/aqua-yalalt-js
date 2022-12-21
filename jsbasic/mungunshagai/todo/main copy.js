@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+window.addEventListener('load', () => {
   let formTag = document.querySelector("#new-task-form");
   let newTaskInput = document.querySelector("#new-task-input");
   let taskList = document.querySelector("#tasks");
@@ -8,36 +8,12 @@ window.addEventListener("load", () => {
   let isCheckedTask = false;
   let lastTask = "";
   let compTasksCount = 0;
-
-  function updateDateTime() {
-    const now = new Date();
-    const year = now.getFullYear();
-    const month = now.getMonth() + 1; // month is zero-based
-    const day = now.getDate();
-    const dateTime = `${year}-${month.toString().padStart(2, "0")}-${day
-      .toString()
-      .padStart(2, "0")}`;
-    dateTag.textContent = dateTime;
-  }
-
-  function countAddTasks() {
-    compTasksCount++;
-    completeTasks.textContent = `${compTasksCount} task үлдлээ`;
-  }
-
-  function countMinusTasks() {
-    compTasksCount--;
-    completeTasks.textContent = `${compTasksCount} task үлдлээ`;
-  }
-
+  
   formTag.addEventListener("submit", function (e) {
     e.preventDefault();
-    addTask(newTaskInput.value);
-    countAddTasks();
-    newTaskInput.value = "";
-  });
+    
+    const task = newTaskInput.value;
 
-  function addTask(task) {
     const taskElement = document.createElement("div");
     taskElement.classList.add("task");
 
@@ -54,7 +30,7 @@ window.addEventListener("load", () => {
 
     console.log("Last task " + lastTask);
     console.log("Dotood input " + taskInputEl.value);
-
+    
     const taskActionElements = document.createElement("div");
     taskActionElements.classList.add("actions");
 
@@ -92,7 +68,7 @@ window.addEventListener("load", () => {
       }
     });
 
-    taskCheckBtn.addEventListener("click", (e) => {
+    taskCheckBtn.addEventListener("click", (e) => {      
       if (!isCheckedTask) {
         taskInputEl.classList.remove("checkedTask");
         taskInputEl.dispatchEvent(new Event("click"));
@@ -104,10 +80,21 @@ window.addEventListener("load", () => {
     });
 
     taskDeleteBtn.addEventListener("click", (e) => {
-      countMinusTasks();
+      compTasksCount -= 2;
       taskList.removeChild(taskElement);
     });
-  }
 
-  updateDateTime();
+    compTasksCount++;
+    completeTasks.textContent = `${compTasksCount} task үлдлээ`;
+    newTaskInput.value = "";
+  });
+
+  
+  
 });
+
+function addTask(text) {
+  const task = document.createElement('li');
+  task.textContent = text;
+  taskList.appendChild(task);
+}

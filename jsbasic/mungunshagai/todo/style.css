@@ -65,7 +65,7 @@ input, button {
     font-weight: 500;
 }
 #new-task-submit:hover {
-    opacity: 0.8;
+    background-color: rgb(29, 41, 83);
     cursor: pointer;
 }
 
@@ -75,6 +75,12 @@ input, button {
 }
 #tasks { 
     border-top: 2px solid rgb(29, 41, 83);
+}
+
+#dateNow {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .task-list {
