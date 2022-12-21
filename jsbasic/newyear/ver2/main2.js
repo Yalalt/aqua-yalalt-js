@@ -34,14 +34,14 @@ function genArray() {
     sumScore.style.display = 'block';
 
     // tasks and answers setup
-    let task1 = 'array.reverse("students")';
-    array.reverse();
+    let task1 = 'array.pop();';
+    array.pop();
     let answer1 = `Answer:\n[${array}];`;
-
+    
     let task2 = 'array.filter(el => el % 2 !== 0).toLeftSide();';
     let evenAnswer = array.filter(el => el % 2 !== 0);
     let answer2 = `Answer:\n[${evenAnswer}];`;
-
+    
     let task3 = 'array.map(el => el % 2 === 0).toSitdown();';
     let newFiltered = array.map(element => element % 2 === 0 ? 'sit' : element);
     let answer3 = `Answer:\n[${newFiltered}];`;
@@ -49,9 +49,9 @@ function genArray() {
     let task4 = 'array.slice(' + parseInt(array.length / 2) + ')';
     let taskRest = array.slice(parseInt(array.length / 2));
     let answer4 = `Answer:\n[${taskRest}];`;
-
-    let task5 = 'array.pop();';
-    array.pop();
+    
+    let task5 = 'array.reverse("students")';
+    array.reverse();
     let answer5 = `Answer:\n[${array}];`;
         
     slides = [
