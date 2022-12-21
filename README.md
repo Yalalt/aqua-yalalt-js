@@ -182,5 +182,7 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/RandomNumber/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/RandomNumber/index.html
 
-
+43. **Mungunshagai багш: Todo list task manager - Тэмдэглэл хийх программ хийх даалгавар**
+- Github files location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/mungunshagai/todo/
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/mungunshagai/todo/todo.html
 
