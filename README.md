@@ -176,7 +176,7 @@ JS basic assignments
 -------------------Color Box Game------------------------ 
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/colorQuiz/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/colorQuiz/index.html
--------------------------------------------
+---------------------------------------------------------
 
 42. **Orgil bagsh: Random Number - Тоо таах тоглоом хийв**
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/RandomNumber/app.js
