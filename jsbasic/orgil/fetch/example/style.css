@@ -29,6 +29,8 @@
   .countries {
     /* margin-bottom: 8rem; */
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     font-size: 2rem;
   }
   
@@ -39,6 +41,7 @@
     width: 30rem;
     border-radius: 0.7rem;
     margin: 0 3rem;
+    padding: 8px 0px 0px 0px;
     /* overflow: hidden; */
   }
   
