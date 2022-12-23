@@ -29,7 +29,6 @@ async function renderCountry(country) {
 }
 
 function displayData(country) {
-  console.log(country);
 
   renderCountry(country).then((data) => {
     let countryData = data[0];
@@ -52,12 +51,9 @@ function displayData(country) {
     countryInput.value = "";
 
     renderAllCountry().then((data) => {
-      console.log(data);
       let listCountries = getNeighbourCountries(searchCountry, data);
-  
-      console.log(listCountries);
       for (let j = 0; j < listCountries.length; j++) {
-        let htmlDom = `<article class="country">
+        let htmlDom = `<article class="country neighbour">
         <img class="country__img" src="${listCountries[j].flags.svg}" />
             <div class="country__data">
               <h3 class="country__name">${listCountries[j].name.common}</h3>
