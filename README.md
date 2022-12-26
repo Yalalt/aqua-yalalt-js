@@ -190,3 +190,6 @@ JS basic assignments
 - Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/wf_fetch_dog/js/app.js
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/wf_fetch_dog/index.html
 
+45. **Bilguun багшийн User Profile - Хэрэглэгчийн Профайл өгөгдөлийг авч харуулах даалгавар**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/bilguun/randomUser/src/main.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/bilguun/randomUser/index.html

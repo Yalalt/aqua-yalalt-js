@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
-:root {
-    --car-header: 240px;
-}
+
 
 * {
     padding: 0;
@@ -34,24 +32,29 @@ body {
  border-radius: 14px;
 }
 .card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
     position: relative;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    padding: 2rem;
     background-color: rgb(125, 151, 248);
     color: #fff;
     text-align: center;
 }
 .card-header #name {
-    margin: 50px 0px 16px;
+    margin-top: 60px;
     font-size: 1.5rem;
     font-weight: 300;
 }
 
-.card-image {
+.card_image {
     position: absolute;
     top: 0;
-    left: 33%;
+    left: 30%;
     transform: translate(0%, -50%);
     width: 130px;
     height: 130px;
@@ -62,15 +65,30 @@ body {
     object-position: center;
 }
 .card-body {
-    padding: 1.5rem 3rem;
+    padding: 0.2rem 3rem;
+}
+.mr-6 {
+    margin-right: 6px;
+}
+.card-body ul #mob {
+    color: tomato;
+}
+.card-body ul #loc {
+    color: dodgerblue;
+}
+.card-body ul #fb {
+    color: mediumslateblue;
 }
 .card-body ul li {
-    margin: 8px 0px;
+    margin: 16px 0px;
     font-size: 1.1rem;
+    list-style: none;
+    color: #000;
 }
+
 .footer-card {
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     color: lightgray;
     font-weight: 700;
     font-size: 1.25rem;
