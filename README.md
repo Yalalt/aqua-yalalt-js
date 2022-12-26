@@ -186,3 +186,7 @@ JS basic assignments
 - Github files location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/mungunshagai/todo/
 - Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/mungunshagai/todo/todo.html
 
+44. **Orgil bagsh: Dog Image - Dog API ашиглан нохойны үүлдэр харуулах даалгавар хийв**
+- Github file location: https://github.com/Yalalt/aqua-yalalt-js/blob/main/jsbasic/orgil/wf_fetch_dog/js/app.js
+- Github Page : https://yalalt.github.io/aqua-yalalt-js/jsbasic/orgil/wf_fetch_dog/index.html
+

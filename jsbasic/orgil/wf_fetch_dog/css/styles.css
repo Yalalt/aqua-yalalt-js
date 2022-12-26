@@ -1,5 +1,5 @@
 html {
-  font-family: sans-serif;
+  font-family: "Karla", sans-serif;
 }
 body {
   margin: 0;
@@ -184,7 +184,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Ubuntu Mono", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
