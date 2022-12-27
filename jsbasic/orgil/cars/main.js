@@ -1,10 +1,14 @@
 let btn = document.getElementById("btn");
-let root = document.getElementById("root");
-root.style.display = "flex";
-root.style.flexDirection = "row";
-root.style.flexWrap = "wrap";
-root.style.gap = "20px";
-let saveBtn = document.getElementById("saveBtn");
+let brandBtn = document.getElementById("brandBtn");
+let modelBtn = document.getElementById("modelBtn");
+
+let btnSave = document.getElementById("btnSave");
+let carsDom = document.getElementById("root");
+carsDom.style.display = "flex";
+carsDom.style.flexDirection = "row";
+carsDom.style.flexWrap = "wrap";
+carsDom.style.gap = "20px";
+
 
 btn.addEventListener("click", async (e) => {
   e.preventDefault();
@@ -19,9 +23,52 @@ btn.addEventListener("click", async (e) => {
       createCard(data);
     });
 });
+// Btn bvr deer fetch bichih!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// a link deer id gaar barij addEventListener bich!!!!
+btn.addEventListener("click", async (e) => {
+  e.preventDefault();
+  const res = await fetch("http://localhost:3333/api/cars", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      createCard(data);
+    });
+});
+btn.addEventListener("click", async (e) => {
+  e.preventDefault();
+  const res = await fetch("http://localhost:3333/api/cars", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      createCard(data);
+    });
+});
+btn.addEventListener("click", async (e) => {
+  e.preventDefault();
+  const res = await fetch("http://localhost:3333/api/cars", {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      createCard(data);
+    });
+});
+
+
 
 function createCard(data) {
-  root.innerHTML = "";
+  carsDom.innerHTML = "";
 
   data.map((item) => {
     let card = document.createElement("div");
@@ -36,6 +83,6 @@ function createCard(data) {
         </div>
         </div>`;
 
-    root.appendChild(card);
+    carsDom.appendChild(card);
   });
 }
